@@ -1,31 +1,12 @@
-# Cookiecutter Conda Data Science
+# {{ cookiecutter.project_name }}
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+{{ cookiecutter.project_description }}
+  
+## Installation guide
 
-## Requirements
+Please read [install.md](install.md) for details on how to set up this project.
 
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html): This can be installed with pip by or conda depending on how you manage your Python packages:
-
-``` bash
-pip install cookiecutter
-```
-
-or
-
-``` bash
-conda install -c conda-forge cookiecutter
-```
-
-## Create a new project
-
-In a folder where you want your project generated:
-
-```bash
-cookiecutter https://github.com/frandak2/cookiecutter-personal
-```
-
-## Resulting directory structure
+## Project Organization
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
@@ -76,15 +57,5 @@ cookiecutter https://github.com/frandak2/cookiecutter-personal
         └── visualization  <- Scripts to create exploratory and results oriented visualizations.
             └── visualize.py
 
-## Contributing guide
-
-All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
-
-## Credits
-
-This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
-
-Other links that helped shape this cookiecutter :
-
-- [Write less terrible code with Jupyter Notebook](https://blog.godatadriven.com/write-less-terrible-notebook-code)
-- [Cookiecutter DataScience Opinions](http://drivendata.github.io/cookiecutter-data-science/#opinions)
+---
+Project based on the [cookiecutter conda data science project template](https://github.com/frandak2/cookiecutter-personal).
