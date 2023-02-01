@@ -10,7 +10,7 @@ Please read [install.md](install.md) for details on how to set up this project.
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- The top-level README for Data Scientist using this project.
     ├── install.md         <- Detailed instructions to set up this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -22,7 +22,7 @@ Please read [install.md](install.md) for details on how to set up this project.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │                         `1.0-fmh-initial-data-exploration`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
